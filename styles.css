@@ -30,8 +30,6 @@ body {
   padding: 80px 5%;
   text-align: center;
 }
-
-/* styles.css */
 #bg-video {
   position: fixed;
   top: 0;
@@ -40,6 +38,43 @@ body {
   min-height: 100%;
   object-fit: cover;
   z-index: -1;
-  opacity: 0.3; /* optional: tone down the background */
+  opacity: 0.3;
 }
-
+/* Scrollable Content Sections */
+.content-section {
+  padding: 100px 10%;
+  text-align: center;
+  background: rgba(15, 17, 21, 0.85);
+  margin-top: 50px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.content-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.content-section p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+.screenshot {
+  margin-top: 30px;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+.download-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  background: #66ccff;
+  color: #000;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.download-button:hover {
+  background: #4ab8e6;
+}
